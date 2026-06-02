@@ -1,0 +1,7 @@
+#!/bin/bash
+TARGET_FILE=server.log
+TEXT_MESSAGE="SERVER STARTED"
+CURRENT_DATE=$(date)
+echo "$TEXT_MESSAGE $CURRENT_DATE" >> $TARGET_FILE
+
+
